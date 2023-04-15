@@ -34,8 +34,10 @@ function LandingPageButton() {
     return <div style={style}>
         <LandingFrameMessage />
     </div>
-}function HomePage() {
-    return <div>
-        <LandingFrame />
-    </div>
-}export default HomePage
+}
+function HomePage() {
+   return <div>
+      <LandingFrame />
+   </div>
+}
+export default HomePage
