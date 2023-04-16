@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './Home.css'
 
@@ -6,9 +7,53 @@ const HomePage = () => {
     <div className="home-container">
       <h1>Welcome to Pizza Planet!</h1>
       <p>Use the navigation menu above.</p>
-      <image src="/images/Pizza1.jpg" alt=""/>
-       </div>
+     </div>
   );
 };
 
 export default HomePage;
+=======
+import {Link} from "react-router-dom"
+function LandingPageButton() {    
+  return <Link to="/about" class="nav-link">
+        <button class="btn btn-primary" > 
+            <span style={{"font-size": "24px"}}>
+                Learn More
+            </span>
+        </button>
+    </Link>
+}function LandingFrameMessage() {    const style = {
+        margin: "auto",
+        padding: "15% 5% 0% 5%",
+        color: "white",
+    }    
+    return <div style={style}>
+        
+        <div style={{"font-size": "96px"}}>
+            Welcome to Pizza Planet!
+        </div>
+        
+        <div style={{"font-size": "36px"}}>
+            Come in and see what all the "Buzz" is about.
+            We have been slinging pizza since 1989.
+        </div>        <br />        <LandingPageButton />    </div>
+}function LandingFrame() {
+    const style = {
+        "background-image": `url("images/HomePage.jpg")`,
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        position: "absolute",
+        height: "100%",
+        width: "100%",
+    }    
+    return <div style={style}>
+        <LandingFrameMessage />
+    </div>
+}
+function HomePage() {
+   return <div>
+      <LandingFrame />
+   </div>
+}
+export default HomePage
+>>>>>>> a6744e62fe3ea743cef0b0fff1aaee8e9e0720a2

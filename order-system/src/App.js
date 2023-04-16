@@ -4,6 +4,7 @@ import NavigationBar from './components/Navigation';
 import HomePage from './pages/Home';
 import MenuPage from './pages/Menu';
 import ContactUsPage from './pages/Contact';
+import FAQPage from './pages/FAQ';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/FAQ" element={<FAQPage />} />
         </Routes>
       </div>
     </BrowserRouter>

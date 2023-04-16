@@ -21,6 +21,11 @@ function NavigationBar() {
               Contact Us
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/FAQ" className="nav-link">
+              FAQ
+            </Link>
+          </li>
         </ul>
       </nav>
     );
