@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 function LandingPageButton() {    
   return <Link to="/about" class="nav-link">
         <button class="btn btn-primary" > 
-            <span style={{"font-size": "24px"}}>
+            <span style={{"font-size": "24px", "color": "Brown"}}>
                 Learn More!
             </span>
         </button>
@@ -11,8 +11,8 @@ function LandingPageButton() {
 function LandingFrameMessage() {
   const style = {
         margin: "auto",
-        padding: "15% 15% 15% 15%",
-        color: "white",
+        padding: "20% 15% 15% 15%",
+        color: "#fbff00",
     }    
     return <div style={style}>
         
