@@ -12,7 +12,7 @@ function LandingFrameMessage() {
   const style = {
         margin: "auto",
         padding: "20% 15% 15% 15%",
-        color: "#fbff00",
+        color: "Black",
     }    
     return <div style={style}>
         
@@ -34,7 +34,7 @@ function LandingFrameMessage() {
         "background-size": "cover",
         position: "absolute",
         height: "100%",
-        width: "100%"
+        width: "100%",
     }    
     return <div style={style}>
         <LandingFrameMessage />
