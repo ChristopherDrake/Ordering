@@ -6,7 +6,8 @@ const HomePage = () => {
     <div className="home-container">
       <h1>Welcome to Pizza Planet!</h1>
       <p>Use the navigation menu above.</p>
-    </div>
+      <image src="/images/Pizza1.jpg" alt=""/>
+       </div>
   );
 };
 
