@@ -32,7 +32,7 @@ const MenuPage = () => {
       <div className="menu-item">
         <h2>Soft drinks</h2>
         <p>Coke, Sprite, Fanta, Dr. Pepper</p>
-        <p>$2.99</p>
+        <p>$3.99</p>
       </div>
     </div>
   );
