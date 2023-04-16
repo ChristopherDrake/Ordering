@@ -5,6 +5,7 @@
     align-items: center;
     height: 80px;
     padding: 0 20px;
+    justify-content: center;
   }
   
   .navbar-nav {
@@ -12,7 +13,7 @@
   }
   
   .nav-item {
-    margin-right: 10px;
+    margin-right: 15px;
   }
   
   .nav-link {
