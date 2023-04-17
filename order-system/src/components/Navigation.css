@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     height: 70px;
-    padding: 0 20px;
-    justify-content: space-between;
+    padding: 0px 40px 0px 10px;
+    justify-content: center;
   }
   .navbar-logo {
     width: 80px;
