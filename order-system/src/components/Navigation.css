@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333;
+    background-color: #dc1721;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,19 +17,46 @@
   }
   
   .nav-link {
-    color: white;
+    color: black;
     font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
     padding: 10px;
     transition: all 0.3s ease-in-out;
+    
   }
+
+  .active {
+    color: white;
+  }
+    .navbar-home-image {
+      width: 120px;
+      height: 120px;
+      margin-right: 5px;
+    }
+    .navbar-cart-image {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
   
   .nav-link:hover {
     background-color: white;
     color: #333;
     border-radius: 5px;
   }
-  
+
+  .cart-link {
+  float: right;
+  }
+
+  .cart-link:hover {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+  }
+
+
   ul {
     list-style-type: none;
     padding: 0;

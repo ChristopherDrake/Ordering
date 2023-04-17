@@ -1,41 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Items from '../components/Items.js';
+import Cart from '../components/Cart.js';
+import MenuItem from '../components/MenuItem.js';
+import './Menu.css'
 
-const MenuPage = () => {
+function MenuPage() {
+  const [cartItems, setCartItems] = useState([]);
+
+  const handleAddToCart = (product) => {
+    setCartItems((prevCartItems) => [...prevCartItems, product]);
+  }
+
   return (
-    <div className="menu-container">
-      <h1>Our Menu</h1>
-      <div className="menu-item">
-        <h2>Pepperoni Pizza</h2>
-        <p>Tomato sauce, mozzarella cheese, pepperoni</p>
-        <p>$12.99</p>
+    <div className="menu-page">
+      <div className="menu-items">
+        {Items.products.map((product) => (
+          <MenuItem key={product.id} product={product} handleAddToCart={handleAddToCart} />
+        ))}
       </div>
-      <div className="menu-item">
-        <h2>Margherita Pizza</h2>
-        <p>Tomato sauce, mozzarella cheese, fresh basil</p>
-        <p>$10.99</p>
-      </div>
-      <div className="menu-item">
-        <h2>Hawaiian Pizza</h2>
-        <p>Tomato sauce, mozzarella cheese, ham, pineapple</p>
-        <p>$13.99</p>
-      </div>
-      <div className="menu-item">
-        <h2>Mozzarella Sticks</h2>
-        <p>Mozzarella cheese with Marinara dip</p>
-        <p>$5.99</p>
-      </div>
-      <div className="menu-item">
-        <h2>Traditional wings and Boneless wings</h2>
-        <p>BBQ, Buffalo, Lemon pepper, Mango habanero</p>
-        <p>$10.99</p>
-      </div>
-      <div className="menu-item">
-        <h2>Soft drinks</h2>
-        <p>Coke, Sprite, Fanta, Dr. Pepper</p>
-        <p>$3.99</p>
+      <div className="cart">
+        <Cart cartItems={cartItems} setCartItems={setCartItems} />
       </div>
     </div>
   );
-};
+}
 
 export default MenuPage;

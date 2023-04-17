@@ -14,7 +14,8 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/menu"element={<MenuPage/>}
+          />
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/FAQ" element={<FAQPage />} />
         </Routes>
