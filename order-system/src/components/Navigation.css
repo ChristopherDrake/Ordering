@@ -1,19 +1,29 @@
 .navbar {
     background-color: #333;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
     padding: 0 20px;
-    justify-content: center;
+    justify-content: space-between;
   }
-  
+  .navbar-logo {
+    width: 80px;
+    height: 80px;
+  }
+  .navbar-logo-link {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+  }
   .navbar-nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
   }
   
   .nav-item {
-    margin-right: 15px;
+    margin-right: 40px;
   }
   
   .nav-link {
