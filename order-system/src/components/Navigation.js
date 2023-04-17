@@ -30,6 +30,11 @@ function NavigationBar() {
             FAQ
           </Link>
         </li>
+        <li className="nav-item">
+          <Link to="/about-us" className="nav-link">
+            About Us
+          </Link>
+        </li>
       </ul>
     </nav>
   );
