@@ -19,8 +19,7 @@ const AboutUsPage = () => {
       <p>Our commitment to work hard and provide you with the best service and dining experience will always remain.<br />
          Once again thank you so much for being the real Pizza Planet MVP's for all of these many, many years.</p> 
    
-      <h2>Address:</h2>
-      <p className="gray-text">123 Main St<br />Denver, CO 80202</p>
+      <p>123 Main St<br />Denver, CO 80202</p>
 
     </div>
   );

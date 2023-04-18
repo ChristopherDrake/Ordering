@@ -24,3 +24,9 @@ h2 {
   margin-bottom: 1rem;
   color: rgb(0, 0, 0);
 }
+
+p:last-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(75, 66, 66);
+  }
