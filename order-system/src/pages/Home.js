@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom"
 function LandingPageButton() {    
-  return <Link to="/about" class="nav-link">
+  return <Link to="/about-us" class="nav-link">
         <button class="btn btn-primary" > 
             <span style={{"font-size": "24px", "color": "Brown"}}>
-                Learn More!
+                About Us!
             </span>
         </button>
     </Link>
@@ -21,8 +21,8 @@ function LandingFrameMessage() {
         </div>
         
         <div style={{"font-size": "36px"}}>
-           Come in and see what all the "Buzz" is about.
-           Use the navigation menu at the top.
+           Come in and see what all the "Buzz" is about.<br />
+           Kindly use the navigation menu at the top.
         </div>        
         <br />        
         <LandingPageButton />    
