@@ -20,13 +20,14 @@
   }
   
   p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: #58565e;
   }
   
   p:last-child {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #680724;
+    font-size: 1.8rem;
+    color: #58565e;
+    margin-bottom: .5rem;
+    font-weight: inherit;
   }
