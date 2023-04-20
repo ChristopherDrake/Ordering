@@ -13,32 +13,20 @@
     color: #f1356d;
   }
   
-  .menu-item {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-  }
-  
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #000000;
   }
   
   p {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #666;
+    color: #58565e;
   }
   
   p:last-child {
     font-size: 2rem;
     font-weight: bold;
-    color: #f1356d;
+    color: #680724;
   }
