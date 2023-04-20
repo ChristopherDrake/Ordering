@@ -30,6 +30,12 @@
     margin-bottom: 1rem;
     color: #333;
   }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f13535;
+  }
   
   p {
     font-size: 1.5rem;

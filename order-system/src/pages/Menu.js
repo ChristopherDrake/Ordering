@@ -30,11 +30,35 @@ const MenuPage = () => {
         <p>$10.99</p>
       </div>
       <div className="menu-item">
+        <h2>House Salad</h2>
+        <p>With your choice of dressing caesar, blue cheese, ranch, vinaigrette dressings</p>
+        <p>$5.99</p>
+      </div>
+      <div className="menu-item">
         <h2>Soft drinks</h2>
         <p>Coke, Sprite, Fanta, Dr. Pepper</p>
         <p>$3.99</p>
       </div>
+      <div className="menu-item">
+        <h2>Combo Deals</h2>
+      </div>
+      <div className="menu-item">
+        <h2>Cheesy Lovers Combo</h2>
+        <p>Large cheese pizza, cheesy bread sticks, 2 liter soft drink</p>
+        <p>$15.99</p>
+      </div>
+      <div className="menu-item">
+        <h2>Meat Lovers Combo</h2>
+        <p>Large meat lovers pizza, 12 piece wings, 2 liter soft drink</p>
+        <p>$20.99</p>
+      </div>
+      <div className="menu-item">
+        <h2>Veggie Lovers Combo</h2>
+        <p>Large veggi lovers pizza, house salad, 2 liter soft drink</p>
+        <p>$12.99</p>
+      </div>
     </div>
+
   );
 };
 
