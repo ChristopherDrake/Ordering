@@ -14,6 +14,8 @@ const FAQPage = () => {
 
         <h2>"Can we custom order pizza that we don't see on the menu?"</h2>
         <p>Yes you can, However you may offend the menu artist by doing so</p>
+    
+    <br /> */added because the styling will only work with a break for some reason */
     </div>
   );
 };
