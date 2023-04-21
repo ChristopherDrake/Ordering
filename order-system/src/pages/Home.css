@@ -1,2 +1,75 @@
-### Reworking the homepage
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background-color: inherit;
+  --text-color: hsl(0, 0%, 0%);
+}
+body{
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(1.5rem, 1rem + 18vw, 6rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+  position: relative;
+  background-image:url('D:\CTU-Project\Ordering\order-system\src\components\Images\HomePage.jpg');  ;
+}
+.wrapper > div {
+  grid-area:0/1/1/1;
+}
+
+.content {
+  margin: auto;
+  padding: 5% 15% 15% 15%;
+  color: gray;
+  font-size: 2rem;
+}
+
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+  transform:translateY(100%)
+}
+.bottom {
+  clip-path: polygon(0% 65%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(100deg, black 53%, var(--text-color) 65%);
+  background: linear-gradient(100deg, black 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-.05em);
+  transform: translateY(2%)
   
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f03232;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: -300px;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.btn-text {
+  font-size: 24px;
+  color: rgb(229, 241, 59);
+}
+
+.nav-link {
+  text-decoration: none;
+}
