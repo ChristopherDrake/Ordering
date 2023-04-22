@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ContactUsPage = () => {
   return (
     <div className="contact-container">
@@ -16,7 +15,7 @@ const ContactUsPage = () => {
 
         <button type="submit">Send</button>
       </form>
-    </div>
-  );
+      </div> 
+     );
 };
 export default ContactUsPage;
