@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ordering/static/css/main.ae03c5f8.css",
+    "main.js": "/ordering/static/js/main.25341960.js",
+    "static/js/787.3383aaf8.chunk.js": "/ordering/static/js/787.3383aaf8.chunk.js",
+    "static/media/PizzaPlanetLogo.png": "/ordering/static/media/PizzaPlanetLogo.f64e428ef8a9b33307ac.png",
+    "static/media/HomePage.jpg": "/ordering/static/media/HomePage.aaea0318f6508a0ef58a.jpg",
+    "index.html": "/ordering/index.html",
+    "main.ae03c5f8.css.map": "/ordering/static/css/main.ae03c5f8.css.map",
+    "main.25341960.js.map": "/ordering/static/js/main.25341960.js.map",
+    "787.3383aaf8.chunk.js.map": "/ordering/static/js/787.3383aaf8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae03c5f8.css",
+    "static/js/main.25341960.js"
+  ]
+}
