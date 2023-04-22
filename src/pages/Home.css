@@ -18,7 +18,7 @@ body{
   text-transform: uppercase;
   color: var(--text-color);
   position: relative;
-  background-image:url('D:\CTU-Project\Ordering\order-system\src\components\Images\HomePage.jpg');  ;
+  background-image:url('../../public/images/HomePage.jpg');  ;
 }
 .wrapper > div {
   grid-area:0/1/1/1;
