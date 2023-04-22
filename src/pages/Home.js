@@ -13,9 +13,9 @@ function HomePage() {
             Come in and see what all the "Buzz" is about.
             <br />
             Kindly use the navigation menu at the top.
-          </div>
+        </div>
           <br />
-          <a href="/about-us" className="nav-link">
+          <a href="/about-us">
             <button className="btn btn-primary">
               <span className="btn-text">About Us!</span>
             </button>
