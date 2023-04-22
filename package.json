@@ -1,7 +1,7 @@
 {
   "name": "order-system",
   "version": "0.1.0",
-  "homepage": "https://christopherdrake.github.io/ordering/",
+  "homepage": "https://christopherdrake.github.io/ordering",
   "private": true,
   "dependencies": {
     "@firebase/auth": "^0.23.0",
